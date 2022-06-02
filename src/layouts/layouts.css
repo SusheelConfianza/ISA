@@ -1,0 +1,55 @@
+h6, address{font-size: 14px !important;}
+#copyright_div{ font-size: 13px;}
+
+#header_logo{
+    width: 180px;;
+}
+header{
+    box-shadow: 1px 1px 8px 4px #e2e3ff;
+}
+.nav-link{
+    color: #204169 !important;
+    font-family: 'Noto Sans' !important;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+footer{
+    background-color: #204169;
+}
+#footer_social a{
+    margin: 10px;
+    font-size: 28px;
+}
+
+
+.footer_col h6 a{
+    color: white;
+}
+#footer_social_main_section{
+    background-color: #e9782f
+}
+#footer_social_main_section span{font-size: 20px;}
+
+hr{
+    width: 60px; background-color: #7c4dff; height: 2px
+}
+
+#copyright_div{
+    background-color: rgba(80, 179, 221, 0.2)
+}
+
+.bg-light{
+    background-color: #fdfcf3 !important;
+}
+
+.active-fh {
+    background-color: var(--color15) !important;
+    border-radius: 0 !important;
+}
+
+.Extranet-btn{
+    border-radius: 10px;
+    background: var(--color16);
+}

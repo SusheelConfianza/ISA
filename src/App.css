@@ -1,0 +1,208 @@
+:root {
+  --color11: rgb(32, 65, 105);
+  --color12: rgb(51, 97, 154);
+  --color13: rgb(48, 112, 209);
+  --color14: rgb(74, 156, 210);
+  --color15: rgb(80, 179, 221);
+  --color16: rgb(162, 227, 255);
+
+  --color21: rgb(233, 120, 47);
+  --color22: rgb(255, 153, 0);
+  --color23: rgb(225, 86, 96);
+  --color24: rgb(183, 81, 136);
+  --color25: rgb(121, 87, 146);
+  --color26: rgb(69, 84, 125);
+
+  --color31: rgb(97, 164, 48);
+  --color32: rgb(67, 150, 84);
+  --color33: rgb(58, 180, 111);
+  --color34: rgb(48, 113, 121);
+  --color35: rgb(38, 92, 112);
+  --color36: rgb(52, 72, 86);
+
+  --bg1: rgba(32, 65, 105, 0.1);
+
+  --bg11o1: rgba(32, 65, 105,.5);
+  --bg12o1: rgba(51, 97, 154,.1);
+  --bg13o1: rgba(48, 112, 209,.1);
+  --bg14o1: rgba(74, 156, 210,.1);
+  --bg15o1: rgba(80, 179, 221,.1);
+  --bg16o1: rgba(162, 227, 255,.1);
+
+  --bg21o1: rgba(233, 120, 47,.1);
+  --bg22o1: rgba(255, 153, 0,.1);
+  --bg23o1: rgba(225, 86, 96,.1);
+  --bg24o1: rgba(183, 81, 136,.1);
+  --bg25o1: rgba(121, 87, 146,.1);
+  --bg26o1: rgba(69, 84, 125,.1);
+
+  --bg31o1: rgba(97, 164, 48,.1);
+  --bg32o1: rgba(67, 150, 84,.1);
+  --bg33o1: rgba(58, 180, 111,.1);
+  --bg34o1: rgba(48, 113, 121,.1);
+  --bg35o1: rgba(38, 92, 112,.1);
+  --bg36o1: rgba(52, 72, 86,.1);
+}
+.bg1{
+  background-color: var(--bg1);
+}
+.dateColor{
+  color: var(--color22);
+}
+.color14{
+  color: var(--color14);
+}
+.color11{
+  color: var(--color11);
+}
+.development{
+  color: var(--color21);
+}
+.bg-secondary{
+  background-color: var(--color16) !important;
+}
+.bg11{background-color: var(--color11);}
+.bg12{background-color: var(--color12);}
+.bg13{background-color: var(--color13);}
+.bg14{background-color: var(--color14);}
+.bg15{background-color: var(--color15);}
+.bg16{background-color: var(--color16);}
+
+
+.bg21{background-color: var(--color21);}
+.bg22{background-color: var(--color22);}
+.bg23{background-color: var(--color23);}
+.bg24{background-color: var(--color24);}
+.bg25{background-color: var(--color25);}
+.bg26{background-color: var(--color26);}
+
+
+.btn-nobg{
+  background: none;
+  font-weight: bold;
+}
+.btn-fh{
+  background: none;
+  color: var(--color12);
+  font-weight: bold;
+  font-style: italic;
+}
+.btn-fh:hover, .btn-fh:active{
+  background: var(--color16);
+}
+
+.btn:focus, .btn:active{
+  box-shadow: none;
+}
+body {
+  font-family: "Noto Sans" !important;
+  font-size: 13px;
+}
+
+
+.btn-primary:hover {
+  background-color: var(--color12);
+  border: var(--color12);
+}
+.btn-primary:active {
+  background-color: var(--color22) !important;
+  box-shadow: none;
+  border: var(--color22);
+}
+.btn-primary:focus {
+  box-shadow: none;
+}
+.btn-primary {
+  background-color: var(--color21);
+  border: var(--color21);
+  
+}
+
+h2 {
+  font-size: 28px !important;
+  font-weight: bold !important;
+  line-height: 28px;
+  padding: 10px;
+  color: var(--color11);
+}
+
+h3 {
+  font-size: 20px !important;
+  font-weight: bold !important;
+  line-height: 28px;
+  color: var(--color11);
+}
+
+h4 {
+  font-size: 16px !important;
+  font-weight: bold !important;
+  line-height: 28px;
+}
+h5 {
+  font-size: 14px !important;
+}
+
+#main_container {
+  text-align: center;
+  min-height: 500px;
+}
+
+.page_heading {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.owl-nav{
+  text-align: right !important;
+}
+.arrow_left, .arrow_right{
+  font-size: 16px !important;
+    font-weight: bold;
+    color: white !important;
+    border: solid 2px white !important;
+    border-radius: 94px !important;
+    padding: 0px 15px !important;
+    margin: 10px !important;
+}
+
+.slider-3_item{
+  margin-top: 5rem !important;
+  margin-right: 1rem !important;
+}
+
+.owl-theme.center{
+  background-color: red;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: var(--color21);
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

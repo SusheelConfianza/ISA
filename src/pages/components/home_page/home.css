@@ -1,0 +1,135 @@
+.top_banner{
+    height: 570px;
+    background-image: url(https://api.isa.techconfianza.com/storage/images/home_page/isa_banner.webp);
+}
+#topBanner-heading-container h1{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color11);
+}
+#topBanner-heading-container p{
+    font-size: 1rem;
+    line-break: 10;
+}
+#banner2Img{
+    background-image: url(https://www.constructionworld.in/assets/uploads/df046a7e08dc611d1ab3bf3401e40553.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    opacity: 1;
+}
+
+.img-fluid{
+    width: 100%;
+}
+.overlay{
+    width: 33%;
+    height: 100%;
+    background-color: var(--bg11o1);
+}
+
+.overlay h1{
+    color: #fff;
+    transition: 2s ease-in;
+    font-weight: 1000;
+    font-size: 4rem;
+}
+
+.recent-development-container{
+    position: relative;
+    margin-top: -4rem;
+    background-color: #fff;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.center .banner_item{
+    background-color: var(--color16);
+    height: 180px;
+    -webkit-box-shadow:inset 0px 0px 0px 2px white;
+    -moz-box-shadow:inset 0px 0px 0px 2px white;
+    box-shadow:inset 0px 0px 0px 2px white;
+}
+
+.banner_item{
+    background-color: var(--bg1);
+    height: 180px;
+    -webkit-box-shadow:inset 0px 0px 0px 2px white;
+    -moz-box-shadow:inset 0px 0px 0px 2px white;
+    box-shadow:inset 0px 0px 0px 2px white;
+}
+
+.slider2_div{
+  text-align: left !important;
+    padding: 30px;
+}
+.events_div{
+    height: 420px;
+}
+
+.we_do_box{
+    height: 300px;
+    color: white !important;
+    text-align: left;
+    padding: 30px;
+}
+.we_do_box a{
+    position: absolute;
+bottom: 0px;
+right: 0;
+}
+
+.we_do_box i{
+    font-size: 64px;
+    padding: 20px;
+}
+
+
+.insight_div{
+    background-color: var(--color12);
+}
+.insight_h2{color: white;}
+.insight_card{
+    height: 420px;
+    overflow: hidden;
+}
+.podcast_top{ 
+    background-color: var(--color11);
+    height: 50%;
+    color: white;
+}
+
+.podcast_mic{
+    padding: 20px;
+    font-size: 64px;
+}
+
+.slider2_div{
+    background-image: url(https://api.isa.techconfianza.com/storage/images/home_page/bg1.png);
+}
+
+.twitter_timeline{
+    margin: 0 -16px;
+}
+
+
+
+.event_item{
+    text-align: left !important;
+  }
+  .event_item h3{
+    background-color: #fff;
+    display: inline-block !important;
+    font-size: 32px !important;
+    text-align: left !important;
+    line-height: 40px;
+    padding: 20px;
+    color: var(--color11);
+  }
+  
+  .event_item p{
+    font-size: 18px !important;
+    margin: 20px 0 !important;
+    text-align: left;
+    color: white;
+  }
+
